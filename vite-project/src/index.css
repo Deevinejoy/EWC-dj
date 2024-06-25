@@ -1,0 +1,243 @@
+ .nav-lists{
+  font-size: larger;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  padding: 6px;
+  top: 0;
+  width:100%;
+
+  z-index: 1;
+  background-color: rgb(150, 48, 48);
+  margin-left: -15px;
+
+}
+@media (min-width: 1000px) {
+  .nav-lists{
+    justify-content: flex-start;
+    gap: 80px
+  }
+  
+}
+
+.nav-lists li{
+  list-style-type: none;
+}
+.nav-lists li a{
+  color: white;
+}
+.nav-lists a:hover{
+  cursor: pointer;
+  text-decoration: none;
+  color:orange
+}
+.nav-lists a:active{
+  color: red;
+}
+
+.home{
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  background-image: url('https://images.unsplash.com/photo-1543702404-38c2035462ad?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 24px;
+  padding-top: 10px;
+  box-shadow: 15px 9px 9px -2px rgba(230, 224,224,0.86);
+  -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224,224,0.86);
+  -moz-box-shadow: 15px 9px 9px -2px #e6e0e0db;
+
+ 
+  
+ 
+}
+/*.bg{
+    background-image: url('https://images.unsplash.com/photo-1543702404-38c2035462ad?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    filter: blur(8px);
+    --webkit-filter:blur(8px);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+.home-sect{
+  display: flex; 
+  gap: 50px;
+  
+ 
+}
+.home-img img{ 
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.home-img{
+  padding-top: 7px;
+}
+
+@media(max-width: 900px){
+  
+  .home-sect{
+     gap: 80px;
+  }
+  .home{
+    height: 450px;
+  }
+   .home-title h1 { 
+    font-size: 50px !important;
+    text-align: center;
+  
+   }
+   .home-title h3{
+    font-size: 30px !important;
+   }
+   .home-img img{
+    height: 100px;
+    width: 100px;
+   }
+   .home-link{
+    margin-top: 100px !important;
+   
+   
+   }
+ 
+}
+.home-title  {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: orange;
+
+}
+.home-title h1{
+  font-size: 100px;
+  font-weight: bold;
+  
+}
+.home-title h3{
+  font-size: 5rem;
+  font-weight: bold;
+  
+}
+.home-title p{
+  color: white;
+}
+
+.home-link {
+  border: 2px solid black;
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 160px;
+  background-color: #bac5ce;
+}
+.home-link:hover{
+  background-color: goldenrod;
+  transition-duration: 1s;
+
+}
+.no-wrap{
+  text-wrap: nowrap;
+}
+
+h2{
+  text-align: center;
+}
+.line{
+  display: block;
+  width: 80px;
+  height: 2px;
+  margin: 1px auto;
+  background-color: black;
+  margin-bottom:40px;
+}
+.about-sect{
+  height: 500px;
+  box-shadow: 15px 9px 9px -2px rgba(230, 224,224,0.86);
+  -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224,224,0.86);
+  -moz-box-shadow: 15px 9px 9px -2px #e6e0e0db;
+  font-size: large;
+ 
+}
+.bible-slider{
+  margin-top: 30px;
+}
+
+.bible-verse{
+  border: 1px solid black;
+  padding: 10px;
+  color: white;
+  background-color: orange;
+  margin: 5px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 50px;
+  height: 200px;
+
+}
+.bible-verse h4{
+  height: 60%
+}
+.slick-prev::before{
+  color: palevioletred;
+  background-color: red;
+  font-size:100px;
+  display: none;
+}
+.slick-next:before{
+  color: palevioletred;
+  background-color: red;
+  font-size: 30px;
+  display: none;
+
+}
+.slick-active button::before{
+display: none;
+}
+#prog{
+  box-shadow: 15px 9px 9px -2px rgba(230, 224,224,0.86);
+  -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224,224,0.86);
+  -moz-box-shadow: 15px 9px 9px -2px #e6e0e0db;
+  
+
+}
+
+#prog table:hover{
+  background-color: black;
+  transition-duration: 0.5s;
+}
+.weekly h3{
+  padding-bottom: 10px;
+
+}
+.contact{
+  box-shadow: 15px 9px 9px -2px rgba(230, 224,224,0.86);
+  -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224,224,0.86);
+  -moz-box-shadow: 15px 9px 9px -2px #e6e0e0db;
+  font-size: 2rem;
+
+}
+.contact h3{
+  color:brown;
+}
+
+.contact-us .whatsapp{
+  color:green;
+}
+.contact-us p a{
+  text-decoration: none;
+  color: black
+}
+.contact-us p a:hover{
+  color: orange;
+}
+.contact-us p svg{
+ margin-right: 10px;
+}
+.contact-us .facebook{
+  color: blue
+}
