@@ -1,6 +1,6 @@
 import React from 'react'
-import  {Zoom} from 'react-awesome-reveal'
 import  {Slide} from 'react-awesome-reveal'
+import {Zoom} from 'react-awesome-reveal'
 
 
 
