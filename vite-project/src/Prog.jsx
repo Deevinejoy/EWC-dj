@@ -22,7 +22,7 @@ const Prog = () => {
             <div className='weekly col-lg-6 col-md-3 col-xl-12 col-sm-3'>
                 <h3 className="vertical-timeline-element-title no-wrap" >Weekly service</h3>
                 
-                    <table className='table table-bordered no-wrap'>
+                    <table className='table table-bordered '>
                         <tbody>
                             <tr>
                                 <td>Eagles Flight</td>
@@ -53,7 +53,7 @@ const Prog = () => {
               contentStyle={{ background: 'orange', color: '#fff' }}
               icon={<FaAddressCard />}
               contentArrowStyle={{ borderRight: '7px solid  brown' }}>
-            <div className=' Monthly col-lg-6 col-md-3 col-xl-12 col-sm-3 no-wrap'>
+            <div className=' Monthly col-lg-6 col-md-3 col-xl-12 col-sm-3'>
             <h3>Monthly service</h3>
                 
                 <table className='table table-bordered '>
